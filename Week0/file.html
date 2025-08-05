@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Google</title>
+
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <!--Nav-->
+    <nav>
+        <a href="index.html">Search</a>
+        <a href="image.html">Image Search</a>
+    </nav>
+
+    <!-- Body -->
+    <div class="advanced-content">
+        <div class="header">
+            <div class="title">
+                <h2>Advanced Search</h2>
+            </div>
+            <div class="subtitle">
+                <h3>Find pages with...</h3>
+            </div>
+        </div>
+        <div class="advanced-search-content">
+            <form action="https://google.com/search">
+                <div>
+                    all these words: <input type="text" name="as_q" autofocus autocomplete="off"><br>
+                </div>
+                <div>
+                    the exact phrase: <input type="text" name="as_epq" autofocus autocomplete="off"><br>
+                </div>
+                <div>
+                    any of these words: <input type="text" name="as_oq" autofocus autocomplete="off"><br>
+                </div>
+                <div>
+                    none these words: <input type="text" name="as_eq" autofocus autocomplete="off"><br>
+                </div>
+                <div class="advanced-search-button-container">
+                    <input type="submit" id="advanced-search-button" value="Advanced Search">
+                </div>
+            </form>
+        </div>
+    </div>
+
+
+</body>
+
+</html>
